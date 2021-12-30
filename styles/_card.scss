@@ -1,0 +1,39 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+
+}
+.cards {
+  background-color: $cardColor;
+  border: solid 1px $borderColor;
+  height: 320px;
+  text-align: center;
+  justify-content: center;
+  margin: .5rem;
+}
+.nameContainer {
+  background-color: $nameColor;
+  padding: .5rem;
+  border-bottom: solid 1px black;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  p {
+    margin-left: 1.2rem;
+    text-align: left;
+  }
+}
+
+.imgContainer {
+  background-color: coral;
+  border-radius: 50%;
+  margin-top: 1rem;
+  padding: 2rem;
+ 
+}

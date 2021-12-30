@@ -1,0 +1,32 @@
+@import './variables';
+@import './card';
+@import './nav';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainContainer {
+  padding: 1rem;
+  margin: 1rem;
+}

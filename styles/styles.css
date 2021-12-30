@@ -1,0 +1,75 @@
+.mainContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards {
+  background-color: #e7e4e4;
+  border: solid 1px #000000;
+  height: 320px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .5rem;
+}
+
+.nameContainer {
+  background-color: #cabae7;
+  padding: .5rem;
+  border-bottom: solid 1px black;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.text p {
+  margin-left: 1.2rem;
+  text-align: left;
+}
+
+.imgContainer {
+  background-color: coral;
+  border-radius: 50%;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.navContainer {
+  height: 75px;
+  width: 100vw;
+}
+
+.logoContainer {
+  background-color: #cadd5c;
+}
+
+.logoContainer img {
+  height: 75px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 900px;
+}
+
+.mainContainer {
+  padding: 1rem;
+  margin: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
