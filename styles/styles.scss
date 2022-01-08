@@ -1,6 +1,10 @@
 @import './variables';
+@import './mixins';
+@import './navBar';
+@import './main';
 @import './card';
-@import './nav';
+@import './background';
+
 
 
 
@@ -9,7 +13,9 @@
   padding: 0;
 }
 body {
-  max-width: 900px;
+  
+  max-width: 100vw;
+
 }
 
 
@@ -26,7 +32,3 @@ body {
 
 
 
-.mainContainer {
-  padding: 1rem;
-  margin: 1rem;
-}

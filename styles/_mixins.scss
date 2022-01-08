@@ -1,0 +1,10 @@
+@mixin sangria {
+  text-align: left;
+  margin-left: 1.2rem;
+}
+
+@mixin fondos {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+}

@@ -1,0 +1,6 @@
+`<h2 class="nameContainer">${obj.id} ${obj.name}</h2>
+                     <img src='${obj.img}' class="imgContainer">
+                     <div class="text">
+                      <h3 class="typesContainer">Tipos: ${obj.types}</h3>
+                      <h3>Hablidades: ${obj.ability}</h3>
+                     </div>`
